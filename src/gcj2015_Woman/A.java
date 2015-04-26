@@ -55,8 +55,8 @@ import java.util.Scanner;
 public class A {
 
     static Scanner in;
-    static String taskname = "A-small-practice";
     static String roundName = "gcj2015_Woman";
+    static String taskname = "A-small-practice";
 
     public static String solve() {
         int B = in.nextInt();
