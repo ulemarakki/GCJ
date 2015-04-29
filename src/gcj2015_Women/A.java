@@ -36,14 +36,13 @@
  OIOOIOOIOOIOOOOOOOIOOIIIOOIIIIOOOOIIOOIIOOIOOIIIOOIOOOOOOOIOOOIOOIOOOOIIOOIIOOOOOIIOOIOOOOIIOOIIOOIOOOOOOIOOIOIOOOIIOIOOOIIOIIOIOOIOOOIOOOIOOOOIOOIOOOOOOOIIIOIOOOIOIOOI
 
 
-
  Output
 
  Case #1: OK
  Case #2: I '<3' "C0d3 J4m"! :)
 
  */
-package gcj2015_Woman;
+package gcj2015_Women;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -55,7 +54,7 @@ import java.util.Scanner;
 public class A {
 
     static Scanner in;
-    static String roundName = "gcj2015_Woman";
+    static String roundName = "gcj2015_Women";
     static String taskname = "A-small-practice";
 
     public static String solve() {

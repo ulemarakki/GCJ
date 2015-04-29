@@ -47,13 +47,13 @@ Sample
 
 Input
 
-Output
-
 4
 1 1
 1 0
 255 0
 0 0
+
+Output
 
 Case #1: 8
 Case #2: 2
@@ -66,7 +66,7 @@ In Case #2, the same eight colors are possible, but only two of them -- (0, 0, 0
 
 */
 
-package gcj2015_Woman;
+package gcj2015_Women;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -77,7 +77,7 @@ import java.util.Scanner;
 public class B {
 
     static Scanner in;
-    static String roundName = "gcj2015_Woman";
+    static String roundName = "gcj2015_Women";
 
 //    static String taskname = "B-small-practice";
 //    static String taskname = "B-large-practice-1";
@@ -86,7 +86,7 @@ public class B {
     public static String solve() {
         long K = in.nextLong();
         long V = in.nextLong();
-        return "" + ( K + 1 + V * (V + 1) * (3 * K - 2 * V + 2) );
+        return "" + (K + 1 + V * (V + 1) * (3 * K - 2 * V + 2));
     }
 
     public static void main(String[] args) {
@@ -113,3 +113,11 @@ public class B {
     }
 }
 
+/*
+Solution
+
+To solve this problem I had to think in 3D.
+
+
+
+ */

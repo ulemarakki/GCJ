@@ -60,7 +60,6 @@ Input
 31683
 
 
-
 Output
 
 Case #1: ...
@@ -68,6 +67,8 @@ Case #2: IT'S OVER 9000!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Case #3: IT'S OVER 9000!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 Case #4: IT'S OVER 9000!!
 Case #5: IT'S OVER 9000!
+
+
 Note that sample cases 3 through 5 are outside the range of the Small data set.
 
 In Case #1, Anima knows that all multifactorials of 9000 are at least 9000, so the opponent's single-digit power level, whatever it is, can't exceed any of them.
@@ -78,7 +79,7 @@ In Case #3, both 9000 with 156 exclamation points and 9000 with 157 exclamation 
 
 */
 
-package gcj2015_Woman;
+package gcj2015_Women;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -90,12 +91,11 @@ import java.util.Scanner;
 public class C {
 
     static Scanner in;
-    static String roundName = "gcj2015_Woman";
+    static String roundName = "gcj2015_Women";
 
 //    static String taskname = "C-small";
-//    static String taskname = "C-small-attempt0";
-//    static String taskname = "C-small-attempt1";
-    static String taskname = "C-large";
+//    static String taskname = "C-small-practice";
+    static String taskname = "C-large-practice";
 
     static int[] multifactorial = new int[9001];
 
