@@ -59,7 +59,6 @@ public class A {
 
     public static String solve() {
         int B = in.nextInt();
-
         String s = in.next().replace("O", "0").replace("I", "1");
 
         return new String(new BigInteger(s,2).toByteArray());
