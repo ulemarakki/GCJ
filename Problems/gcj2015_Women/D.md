@@ -1,6 +1,6 @@
-Problem D. Googlander
+##Problem D. Googlander
 
-Problem
+###Problem
 
 Eric Googlander is a fashion model who performs by walking around on a stage made of squares that form a grid with R rows and C columns. He begins at the leftmost bottom square, facing toward the top edge of the stage, and he will perform by making a series of moves. Googlander knows only the following two moves:
 
@@ -14,42 +14,46 @@ If a move would take Googlander off of the stage or onto a square he has already
 
 How many different paths is it possible for Googlander to walk? (Two paths are the same if and only if they visit the same squares in the same order.)
 
-Input
+#####Input
 
 The first line of the input gives the number of test cases, T. T lines follow; each consists of two space-separated integers R and C.
 
-Output
+#####Output
 
 For each test case, output one line containing "Case #x: y", where x is the test case number (starting from 1) and y is the number of different paths that Googlander can walk.
 
-Limits
+###Limits
 
 1 ≤ T ≤ 100.
-Small dataset
+
+#####Small dataset
 
 1 ≤ R, C ≤ 10.
+
 The limits ensure that the answer will always fit in a 32-bit signed integer.
 
-Large dataset
+#####Large dataset
 
 1 ≤ R, C ≤ 25.
+
 The limits ensure that the answer will always fit in a 64-bit signed integer.
 
-Sample
+###Sample
 
-Input
+#####Input
 
 3
-1 1
-1 3
-3 3
+<br/>1 1
+<br/>1 3
+<br/>3 3
 
-Output
+#####Output
 
 Case #1: 1
-Case #2: 1
-Case #3: 6
+<br/>Case #2: 1
+<br/>Case #3: 6
 
+<br/>
 In Case #1, Googlander cannot make any moves. The only possible path is the trivial one consisting of the only square.
 
 In Case #2, Googlander cannot take a step straight ahead, because it would take him off the stage, but he can turn right and then take a step. Once he has done so, he cannot turn right and then take a step, but he can take a step straight ahead. At that point, there are no more moves he can make and the show is over. This is the only possible path he can take.
