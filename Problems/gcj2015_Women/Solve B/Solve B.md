@@ -47,4 +47,4 @@ each next layer consist from 6 more lines than previos layer and the lines one c
 <br/>Answer ( V, K ) = (K + 1) + (V + 1) * V * ( 3 * K - 2 * (V - 1) )
 ###<br/>Answer ( V, K ) = K + 1 + V * (V + 1) * (3 * K - 2 * V + 2)
 
-Thank you for attension =) Please email mayyayt@gmail.com if you found an error.
+Thank you for attention =) Please email mayyayt@gmail.com if you found an error.
