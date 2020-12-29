@@ -1,4 +1,4 @@
-[Link to the problem text](https://code.google.com/codejam/contest/9214486/dashboard#s=p1)
+[Link to the problem text](https://codingcompetitions.withgoogle.com/codejamio/round/0000000000050df1/0000000000050df4#problem)
 
 Lets think about R, G, and B as coordinates of small cubes. So all possible colors will create a big cube with (K+1) small cubes edge ( total possible colors = (K + 1)^3).
 
