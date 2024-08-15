@@ -67,3 +67,5 @@ Case #1: 8
 In Case #1, there are eight possible colors -- (0, 0, 0), (0, 0, 1), (0, 1, 0), (0, 1, 1), (1, 0, 0), (1, 0, 1), (1, 1, 0), and (1, 1, 1) -- and all of them meet the definition of bland for V = 1.
 
 In Case #2, the same eight colors are possible, but only two of them -- (0, 0, 0) and (1, 1, 1) -- meet the definition of bland for V = 0.
+
+[Solution](Solve%20B/Solve%20B.md)
