@@ -1,6 +1,6 @@
-##Problem B. Dreary Design
+## Problem B. Dreary Design
 
-###Problem
+### Problem
 
 One way to represent a color is as a triple of component values (each of which can range from 0 to K, inclusive) representing levels of red, green, and blue. For example, in the color system where K = 3, (0, 2, 3) and (0, 3, 2) would be two of the possible distinct colors.
 
@@ -8,47 +8,47 @@ We will consider a color to be bland if and only if all pairs of its component v
 
 Mr. Turner loves to create gloomy landscape images and wants to design a color system in which there are many bland colors available. Given values for K and V, can you tell him how many distinct bland colors are there?
 
-#####Solving this problem
+##### Solving this problem
 
 Usually, Google Code Jam problems have 1 Small input and 1 Large input. This problem has 1 Small input and 2 Large inputs. Once you have solved the Small input, you will be able to download any of the two Large inputs. As usual, you will be able to retry the Small input (with a time penalty), while you will get only one chance at each of the Large inputs.
 
-#####Input
+##### Input
 
 The first line of the input gives the number of test cases, T. T lines follow. Each contains two space-separated integers K and V.
 
-#####Output
+##### Output
 
 For each test case, output one line containing "Case #x: y", where x is the test case number (starting from 1) and y is the number of distinct bland colors.
 
-###Limits
+### Limits
 
 1 ≤ T ≤ 100.
 <br/>V ≤ K.
 
-#####Small dataset
+##### Small dataset
 
 0 ≤ K ≤ 255.
 <br/>0 ≤ V ≤ 100.
 
 All answers are guaranteed to fit in a 32-bit signed integer.
 
-#####First large dataset
+##### First large dataset
 
 0 ≤ K ≤ 2,555.
 <br/>0 ≤ V ≤ 555.
 
 All answers are guaranteed to fit in a 32-bit signed integer.
 
-#####Second large dataset
+##### Second large dataset
 
 0 ≤ K ≤ 2,000,000,000.
 <br/>0 ≤ V ≤ 1,000.
 
 All answers are guaranteed to fit in a 64-bit signed integer.
 
-###Sample
+### Sample
 
-#####Input
+##### Input
 
 4
 <br/>1 1
@@ -56,7 +56,7 @@ All answers are guaranteed to fit in a 64-bit signed integer.
 <br/>255 0
 <br/>0 0
 
-#####Output
+##### Output
 
 Case #1: 8
 <br/>Case #2: 2
