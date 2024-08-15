@@ -1,4 +1,4 @@
-[Link to the problem text](Problems/gcj2015_Women/B.md)
+[Link to the problem text](../B.md)
 
 Lets think about R, G, and B as coordinates of small cubes. So all possible colors will create a big cube with (K+1) small cubes edge ( total possible colors = (K + 1)^3).
 
